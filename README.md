@@ -30,7 +30,7 @@ It will run a script to install other stuff (including VS Code extensions) and f
 ```json
 {
   "name": "CUDA",
-  "image": "nvidia/cuda:11.8.0-devel-ubuntu22.04", // https://hub.docker.com/r/nvidia/cuda/tags
+  "image": "nvidia/cuda:11.8.0-devel-ubuntu22.04",
   "runArgs": [
     "--gpus=all"
   ],
